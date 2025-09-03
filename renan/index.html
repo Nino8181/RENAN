@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Meu Portfólio Pessoal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 400px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            color: #2980b9;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #3498db;
+        }
+
+        button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Minha Foto" />
+        <h1>RENAN</h1>
+        <p>Olá! Eu sou um(a) desenvolvedor(a) web apaixonado(a) por criar soluções incríveis e aprender sempre coisas novas.</p>
+        <div class="social-links">
+            <a href="https://github.com/seuusuario" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/seuusuario" target="_blank">LinkedIn</a> |
+            <a href="https://twitter.com/seuusuario" target="_blank">Twitter</a>
+        </div>
+        <br />
+        <button onclick="window.location.href='mailto:seuemail@exemplo.com'">Entre em Contato</button>
+    </div>
+</body>
+</html>
